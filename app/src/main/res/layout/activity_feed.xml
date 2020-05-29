@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feed">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbarcolor"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assessment"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/toolbar" />
+
+
+    <ExpandableListView
+        android:id="@+id/expandable_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider"
+        android:layout_marginTop="10dp"
+        android:childDivider="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:smoothScrollbar="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idrecycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expandable_list"
+        android:background="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/toolbar"
+        android:background="@null"
+        android:drawableEnd="@drawable/ic_person_outline_black_24dp" />
+
+</RelativeLayout>

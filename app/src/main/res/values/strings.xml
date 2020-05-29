@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Assesment</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="editprofile">EditProfile</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="save">SAVE</string>
+    <string name="firstname">Firstname</string>
+    <string name="enter_lastname">Enter lastname</string>
+    <string name="lastname">Lastname</string>
+    <string name="enter_firstname">Enter firstname</string>
+    <string name="email">Email</string>
+    <string name="assessment">Assessment</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="send">SEND</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="not_a_member_register">Not a member? Register!</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="show_password">Show Password</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="time">time</string>
+    <string name="Semi">:</string>
+    <string name="event">event</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="real_name">Real Name</string>
+    <string name="tony_stark">Tony Stark</string>
+    <string name="register">Register</string>
+    <string name="profile">Profile</string>
+
+    <string name="logout">Logout</string>
+    <string name="mobileno">MobileNo :</string>
+    <string name="email_i_d">Email I\'d :</string>
+    <string name="firstname2">FirstName :</string>
+    <string name="lastname2">LastName :</string>
+
+    <color name="textcolor">#f2fe71</color>
+</resources>
